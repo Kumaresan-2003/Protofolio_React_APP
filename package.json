@@ -1,0 +1,30 @@
+{
+  "name": "simplefolio",
+  "version": "1.0.1",
+  "private": true,
+  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "Jacobo Martinez",
+  "license": "ISC",
+  "homepage": "https://github.com/Kumaresan-2003/Portfolio_React_app.git",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^6.2.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.81.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "vanilla-tilt": "^1.7.3"
+  }
+}

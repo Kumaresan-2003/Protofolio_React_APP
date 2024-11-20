@@ -1,0 +1,70 @@
+// Skills Section
+#skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  
+    .skills-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  
+      &__info {
+        ul.skills-wrapper__info-list {
+          list-style-type: disc;
+          padding-left: 20px;
+  
+          li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #555;
+  
+            &:before {
+              content: '✓ ';
+              color: #007bff;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  // Internship Section
+  #internship {
+    padding: 50px 0;
+  
+    .internship-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  
+      &__info {
+        .internship-wrapper__info-text {
+          margin-bottom: 15px;
+          font-size: 1rem;
+          color: #333;
+  
+          strong {
+            color: #007bff;
+          }
+        }
+  
+        ul.internship-wrapper__info-list {
+          list-style-type: disc;
+          padding-left: 20px;
+  
+          li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #555;
+  
+            &:before {
+              content: '✓ ';
+              color: #007bff;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
